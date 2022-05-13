@@ -40,9 +40,8 @@ static int AcimaMedia(List<int> k){
            retornar.Add(aux);    
         }
     }
-    return retornar;
+    return 0;
 }
 
 AcimaMedia(val);
 
-Console.WriteLine(salva);

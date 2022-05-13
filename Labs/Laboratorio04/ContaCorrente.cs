@@ -25,7 +25,7 @@ class ContaCorrente{
 
     }
 
-    public string Nome {
+    public string Nome{
         get => nomeTitular;
     }
 
