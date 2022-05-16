@@ -18,4 +18,9 @@ class Pessoa {
         set { dataNascimento = value; } 
         }
     
-    public override string ToString() { return "[Nome=" + nome + ", Casada=" + casada + ", DataNascimento=" + dataNascimento.ToShortDateString() + "]"; } }
+    public override string ToString() 
+    {
+         return "[Nome=" + nome + ", Casada=" + casada + ", DataNascimento=" + dataNascimento.ToShortDateString() + "]"; 
+    } 
+         
+}
